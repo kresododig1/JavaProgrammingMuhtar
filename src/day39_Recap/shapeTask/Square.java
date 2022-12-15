@@ -3,7 +3,8 @@ package day39_Recap.shapeTask;
 public class Square extends Shape {
 
     /*in child class first declare additional fields (instance variable)
-    and methods that CAN NOT be inherited from parent class, then make Constructor!*/
+    and methods that CAN NOT be inherited from parent class, then make Constructor
+    so the Constructor includes them also (we don't have to do it manually)*/
 private double side;//instance variable
 
     public double getSide() {//return method
@@ -43,3 +44,13 @@ private double side;//instance variable
                 '}';
     }
 }
+/*
+Square extends Shape:
+	variables:
+		side;
+	Encapsulate the field
+	Add a constructor to set the filed
+	area(): side * side
+	perimeter(): side * 4
+	toString(): side, area, perimeter
+ */
