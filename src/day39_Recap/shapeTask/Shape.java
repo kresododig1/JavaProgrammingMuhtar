@@ -2,7 +2,7 @@ package day39_Recap.shapeTask;
 
 public class Shape {
 
-    private String name;
+    private String name;//instance variable
 
     public String getName() {//getter
         return name;
@@ -33,7 +33,17 @@ public class Shape {
     public double perimeter(){//method
         return 0;
     }
+
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "name='" + name + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
+                '}';
+    }
 }
+
 /*
 
 Square extends Shape:
