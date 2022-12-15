@@ -6,7 +6,7 @@ public class Circle extends Shape {
     and methods that CAN NOT be inherited from parent class, then make Constructor
     so the Constructor includes them also (we don't have to do it manually)*/
 
-    private double radius;
+    private double radius;//instance variable
     public static double pi= 3.14;
 
 
